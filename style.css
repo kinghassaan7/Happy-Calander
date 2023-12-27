@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito" , sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('happyclander.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.calender{
+    position: relative;
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(#000400);
+}
+
+.calender #monthName{
+    position: relative;
+    padding: 5px 10px;
+    background: #000400;
+    color: #fff;
+    font-size: 30px;
+}
+
+.calender #dayName{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #464646;
+}
+
+.calender #dayNumber{
+    margin: 0;
+    line-height: 1em;
+    font-size: 80px;
+    color: #2c2c2c;
+}
+
+.calender #year{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #999;
+}
+
+.calender #time{
+    
+    margin-bottom: 5px;
+    margin-left: 10px;
+    transform: translateY(-10px);
+}
